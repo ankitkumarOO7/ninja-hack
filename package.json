@@ -1,0 +1,17 @@
+{
+  "name": "ninjahack",
+  "version": "1.0.0",
+  "description": "Ninja hack",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass":"node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "ankit",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}
